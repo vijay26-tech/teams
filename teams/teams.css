@@ -1,0 +1,92 @@
+body{
+  text-align: center;
+  width: 100%;
+}
+.navbar{
+  padding:0;
+  width: inherit;
+}
+h1
+{
+  border: solid black ;
+  display: inline-block;
+  margin-bottom: 10%;
+  margin-top: 2%;
+}
+.co h1
+{
+  margin-bottom: 5%;
+}
+.navbar-collapse
+{
+}
+.gsec
+{
+  background-image: -webkit-linear-gradient(-45deg,black 15%,grey 1%,white 84%,black 3%);
+  padding: 3% 0 7%;
+}
+.co
+{
+  background-image:-webkit-linear-gradient(-45deg,black 13%,white 1%,grey 86.5%,black 3%);
+  background-color: grey;
+  padding: 1% 0 3%;
+}
+.row
+{
+  width: inherit;
+  padding-bottom: 2%;
+}
+.card{
+  margin: 2%;
+  padding: 1%;
+  width: 202px;
+  height: auto;
+}
+@media only screen and (min-width: 775px){
+  .r-card
+  {
+    left:40%;
+  }
+  .l-card
+  {
+    left: 20%;
+  }
+}
+@media only screen and (max-width: 775px){
+  .r-card
+  {
+    left:30%;
+  }
+  .l-card
+  {
+    left: 30%;
+  }
+}
+img{
+  opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+.tex{
+  display: none;
+  transition: .5s ease;
+ opacity: 1;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
+.card:hover img
+{
+  opacity: 0.2;
+}
+.card:hover .tex{
+  z-index: 4;
+  opacity: 1;
+  display: block;
+}
